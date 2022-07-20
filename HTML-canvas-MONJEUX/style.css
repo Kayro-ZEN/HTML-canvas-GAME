@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+#canvas1 {
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#player,
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#layer5,
+#layer6,
+#layer7,
+#layer8,
+#layer9,
+#layer10,
+#layer11,
+#enemy_fly,
+#enemy_ground_zombie,
+#enemy_spider,
+#fire,
+#collisionAnimation {
+  display: none;
+}
+
+.gameRule {
+  justify-content: center;
+  position: relative;
+  border: 2px solid black;
+  width: 500px;
+}
